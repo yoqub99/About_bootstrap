@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Livvic', sans-serif;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.h1{
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Livvic', sans-serif;
+    font-weight: 500;
+}
+.section{
+    width: 1740px;
+    position: relative;
+    height: 1102px;
+    background: #004047;
+    padding: 200px;
+    margin: 0 auto;
+}
+.section::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/Grouppppp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    left:-50px;
+    top: 1px; 
+}
+.section::after{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/Groupaaa.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    left:1540px;
+    top: 930px; 
+}
+.preview{
+    background: #004047;
+}
+.text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.col-3{
+    width: 350px;
+    height: 253px;
+    background: #012F34;
+    margin: 0 auto;
+}
+.img{
+    width: 96px;
+    height: 96px;
+    margin-left: 100px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.h6{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.p{
+    position: relative;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.p::after{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/pilus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    left: 125px;
+    top: 55px;
+}
+.text_h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin-top: 35px;
+}
+.tetx_p{
+    width: 254px;
+    height: 75px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.image{
+    position: relative;
+    margin-top: 24px;
+    text-align: center;
+}
+.image::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/Group.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: 125px;
+    top: -70px;
+    right: 3px;
+}
+.image img{
+    margin-right: 16px;
+}
